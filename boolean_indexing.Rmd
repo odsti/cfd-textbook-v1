@@ -151,7 +151,7 @@ We have selected the numbers in `easiness` that are greater than 3.
 
 See the picture below for an illustration of what is happening:
 
-![](../images/easiness_values.png)
+![](images/easiness_values.png)
 
 We can use this same Boolean array to index into another array.  For example,
 here we show the discipline *names* corresponding to the courses with Easiness
@@ -163,7 +163,7 @@ disciplines[greater_than_3]
 
 See the picture below for an illustration of how this works:
 
-![](../images/easiness_reused.png)
+![](images/easiness_reused.png)
 
 
 ## Setting values with Boolean arrays

@@ -76,7 +76,7 @@ Python provides a much cleaner way to write this:
 highs - lows
 ```
 
-![](../images/array_subtraction.png)
+![](images/array_subtraction.png)
 
 
 What we've seen in these examples are special cases of a general feature of arrays.

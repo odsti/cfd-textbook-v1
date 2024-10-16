@@ -221,7 +221,7 @@ all the "resamples" are likely to resemble the original sample. So the
 distributions of all the resamples are likely to resemble the population as
 well.
 
-![](../images/bootstrap_pic.png)
+![](images/bootstrap_pic.png)
 
 
 ## A Resampled Median

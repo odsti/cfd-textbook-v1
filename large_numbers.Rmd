@@ -165,7 +165,7 @@ will flow along the red path, and a probability of 0.7 that it will flow
 along the not_red path. *In the long* run, 30% of the cars end up at the end of
 the red path, and 70% of trials end up at the end of the not_red path.
 
-![](../images/red_first_sankey.png)
+![](images/red_first_sankey.png)
 
 These diagrams of *flow* can be called [Sankey
 diagrams](https://en.wikipedia.org/wiki/Sankey_diagram).  They are useful for

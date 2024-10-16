@@ -46,7 +46,7 @@ calculation](bayes_theorem), that the probability is around 0.462.
 The [Bayes theorem page](bayes_theorem) described the logic we discovered, but
 we can also write this on a Sankey diagram:
 
-![](../images/box4_2_sankey_labeled.jpg)
+![](images/box4_2_sankey_labeled.jpg)
 
 Here's the calculation for the two boxes:
 
@@ -89,7 +89,7 @@ We could do that by simulation, but let's leap straight to calculation, using th
 
 We really like our Sankey diagrams, so we start with that:
 
-![](../images/box4_3_2_rg_sankey.jpg)
+![](images/box4_3_2_rg_sankey.jpg)
 
 We now have three ways of getting red — from BOX4, BOX3 or BOX2.  The chances
 of *both* red and the given boxes is now:

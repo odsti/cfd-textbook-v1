@@ -75,7 +75,7 @@ $$
 
 We can draw this in a tree diagram.
 
-![](../images/red_first_sankey.png)
+![](images/red_first_sankey.png)
 
 Here's a simulation to confirm:
 
@@ -152,7 +152,7 @@ Why?   Consider the separate probabilities.  There is a 30% chance of getting a 
 
 We can see this with a tree diagram.
 
-![](../images/red_or_white.png)
+![](images/red_or_white.png)
 
 This is the *addition* rule of probability.
 
@@ -258,7 +258,7 @@ p_toyota_given_red * p_red
 
 Again — we can show ourselves this must be true with a tree (Sankey) diagram.
 
-![](../images/red_and_toyota.png)
+![](images/red_and_toyota.png)
 
 We have just discovered the:
 
