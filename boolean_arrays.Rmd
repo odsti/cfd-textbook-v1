@@ -24,7 +24,7 @@ rng = np.random.default_rng()
 ```
 
 We continue to improve on our implementation for solving the [three girls
-problem](../code-basics/three_girls).
+problem](three_girls).
 
 The [random choice](rng_choice) page gave us a way to simulate the four children of a family in one go:
 
@@ -45,7 +45,7 @@ count
 Our interest in whether the `count` value is equal to 3. We can look at that
 number and write down "Yes" if the number is equal to 3 and "No" otherwise, but
 we would like the computer to do that routine work for us.  We use
-[comparison](../data-types/Comparison):
+[comparison](Comparison):
 
 ```{python}
 is_three = count == 3

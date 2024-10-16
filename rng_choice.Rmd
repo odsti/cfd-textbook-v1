@@ -33,8 +33,8 @@ rng = np.random.default_rng()
 ```
 
 We are building up to an answer to the [three girls
-problem](../code-basics/three_girls).  At the end of the [lists
-page](../data-types/lists), we found a way to simulate one family, and get a
+problem](three_girls).  At the end of the [lists
+page](lists), we found a way to simulate one family, and get a
 count.
 
 Up until now, we have simulated each child in the family by randomly choosing
@@ -71,7 +71,7 @@ with probability 0.5 and 1 with probability 0.5.
 However, you can use the `p` keyword argument to tell the function the probabilities to use for each choice.
 
 For example, let us return to the [supreme court jury
-problem](../code-basics/sampling_problem).  Remember, we wanted to simulate
+problem](sampling_problem).  Remember, we wanted to simulate
 a jury of 12 people, where each juror has a 26% chance of being Black.
 
 We use 1 to mean Black, and 0 to mean White.

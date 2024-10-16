@@ -219,7 +219,7 @@ disciplines[4:]
 ## Another way of indexing into arrays
 
 The methods of indexing above work just as well for
-[lists](../data-types/lists.Rmd) as they do for arrays.
+[lists](lists.Rmd) as they do for arrays.
 
 There are other, particularly useful forms of indexing that only work for
 arrays.  We will cover these later - but the most important of these is the

@@ -387,7 +387,7 @@ print('Number of pairs to try:', n_pairs)
 
 To do this, we could make a new DataFrame with one row per intercept, slope pair.  The intercept column `inter_to_try` will have the intercept values, and the second `slope_to_try` will have the slope values.
 
-Let's repeat each intercept value `n_slopes` times, using [np.repeat](../wild-pandas/np_repeat).   As you remember, `np.repeat` repeats each element in the array by a given number of times:
+Let's repeat each intercept value `n_slopes` times, using [np.repeat](np_repeat).   As you remember, `np.repeat` repeats each element in the array by a given number of times:
 
 ```{python}
 # Repeat each element in the array 3 times.

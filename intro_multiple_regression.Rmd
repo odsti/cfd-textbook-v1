@@ -84,7 +84,7 @@ def scatter_errors(x_values, y_values, c, s):
 ## Simple and multiple regression
 
 We looked at simple regression in the [finding
-lines](../mean-slopes/finding_lines) page, and those following.
+lines](finding_lines) page, and those following.
 
 Simple regression uses a single set of predictor values, and a straight line,
 to predict another set of values.
@@ -263,7 +263,7 @@ methods.
 
 As a side-note, you have to do some extra work to tell Statsmodels formulae
 about column names with spaces and other characters that would make the column
-names invalid as [variable names](../code-basics/Names.Rmd).
+names invalid as [variable names](Names.Rmd).
 
 
 For example, let's say we were using the original DataFrame `ckd`.  We want to use Statsmodels to find the best line to predict `'Serum Creatinine'` values from the `'Blood Urea'` values.  These were the original column names.  We could try this:

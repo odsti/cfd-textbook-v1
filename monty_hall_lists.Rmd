@@ -16,10 +16,10 @@ jupyter:
 # The Monty Hall problem, with lists
 
 For inspiration, see this simulation of [the Monty Hall
-Problem](../more-simulation/monty_hall) using arrays.
+Problem](monty_hall) using arrays.
 
 We use arrays often in data science, but sometimes, it is more efficient to use
-Python [lists](../data-types/lists).
+Python [lists](lists).
 
 To follow along in this section, you will also need [more on
 lists](more_on_lists).
@@ -117,4 +117,4 @@ stay_results.count('car') / n_tries
 switch_results.count('car') / n_tries
 ```
 
-Compare this solution to the [solution using arrays](../more-simulation/monty_hall).  Which solution is easier to read and understand?
+Compare this solution to the [solution using arrays](monty_hall).  Which solution is easier to read and understand?

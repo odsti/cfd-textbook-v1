@@ -18,8 +18,8 @@ jupyter:
 # Back to permutation
 
 This page goes back to permutation, now you know about [permuting
-labels](../wild-pandas/fishers_tea.Rmd) and
-[GroupBy](../useful-pandas/groupby.Rmd).
+labels](fishers_tea.Rmd) and
+[GroupBy](groupby.Rmd).
 
 It gives another way of doing the permutation, that you have
 already seen, as consolidation for the ideas of:

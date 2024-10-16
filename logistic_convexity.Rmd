@@ -89,7 +89,7 @@ The crude and brutal approach to predicting these values is to use simple
 least-squares regression.   We can do this in the usual way by using
 `scipy.optimize.minimize` with a function that returns the root mean squared
 error between the straight line predictions and the 0 / 1 labels.  Here's the
-function from the [Using minimize page](../mean-slopes/using_minimize.Rmd).
+function from the [Using minimize page](using_minimize.Rmd).
 
 ```{python}
 def rmse_any_line(c_s, x_values, y_values):

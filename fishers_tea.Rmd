@@ -107,7 +107,7 @@ says_milk_first
 ```
 
 It is often useful to cross-tabulate the rows of the data frame by giving
-counts in each category. [pd.crosstab](../useful-pandas/crosstab) does this
+counts in each category. [pd.crosstab](crosstab) does this
 job, given the two columns of data.
 
 ```{python}

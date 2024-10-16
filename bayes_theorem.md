@@ -23,7 +23,7 @@ The logic we discovered was:
 
 Here is a Sankey diagram of that calculation:
 
-![](../images/box4_2_sankey.jpg)
+![](images/box4_2_sankey.jpg)
 
 We found the proportion of red trials that are _both_ BOX4 _and_ red is (the
 proportion of BOX4 trials) multiplied by (the proportion of BOX4 trials that
@@ -118,7 +118,7 @@ ball: $P(R) = P(R \mid B4) + P(R \mid B2)$.
 
 Let's put all that on the Sankey diagram:
 
-![](../images/box4_2_sankey_labeled.jpg)
+![](images/box4_2_sankey_labeled.jpg)
 
 Putting the first and second statements together into one, we get:
 

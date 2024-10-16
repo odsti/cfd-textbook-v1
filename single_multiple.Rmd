@@ -44,7 +44,7 @@ def correlation(t, x, y):
 
 The [multiple regression](Multiple_Regression) page introduced an extension the
 simple regression methods we saw in the [finding
-lines](../mean-slopes/finding_lines) page, and those following.
+lines](finding_lines) page, and those following.
 
 Simple regression uses a single set of predictor values, and a straight line,
 to predict another set of values.

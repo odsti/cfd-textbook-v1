@@ -117,7 +117,7 @@ permutation_p
 
 Remember that the *standard deviation* is a measure of the spread of a
 distribution.  We go into the standard deviation in more detail [later in the
-course](../mean-slopes/standard_scores), but for now, we just use Numpy to
+course](standard_scores), but for now, we just use Numpy to
 calculate the standard deviation.
 
 ```{python}

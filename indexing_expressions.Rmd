@@ -17,7 +17,7 @@ jupyter:
 
 # Pandas and indexing expressions
 
-The [subexpressions](../code-basics/sub_expressions) page discussed the idea of
+The [subexpressions](sub_expressions) page discussed the idea of
 expressions that get evaluated in the course of evaluating a larger expression.
 
 In that page you saw examples of expressions and sub-expressions that were:

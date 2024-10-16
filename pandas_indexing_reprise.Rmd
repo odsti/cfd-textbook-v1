@@ -159,4 +159,4 @@ clear_clarity
 ```
 
 You can also use some Boolean sequences for `.iloc`, but it's a bit more
-complicated.  See [Booleans and labels](../functions-conditionals/booleans_and_labels) for more detail.
+complicated.  See [Booleans and labels](booleans_and_labels) for more detail.

@@ -175,4 +175,4 @@ Can you explain why your choice worked better, now you've done the simulation?
 ## Another way of doing the simulation
 
 See [Monty Hall with lists](monty_hall_lists) for another way of doing
-this simulation, using [lists](../data-types/lists) instead of arrays.
+this simulation, using [lists](lists) instead of arrays.

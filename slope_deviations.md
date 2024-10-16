@@ -8,7 +8,7 @@ know the basics of finding the
 
 Please make sure you have read and understand the mean squared deviation page, because this page builds on that argument.
 
-You should also check the page on [means and slopes](../mean-slopes/mean_and_slopes) for
+You should also check the page on [means and slopes](mean_and_slopes) for
 the problem we are trying to solve.
 
 In our problem, we have $n$ $x$ values ${x_1, x_2, ..., x_n}$, that we want to
@@ -39,7 +39,7 @@ $$ (sse_s)
 The $\triangleq$ symbol means *is defined as*.
 
 This is the general formula for the specific plot we saw at the end of [mean
-and slope page](../mean-slopes/mean_and_slopes), where the value for $s$ is on
+and slope page](mean_and_slopes), where the value for $s$ is on
 the horizontal axis, and the value for $SSE_s$ is on the vertical axis.
 
 We want to find the value of $s$ that gives the smallest value for $SSE_s$.

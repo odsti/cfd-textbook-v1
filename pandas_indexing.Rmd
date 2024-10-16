@@ -25,11 +25,11 @@ Indirect indexing
    Positions with iloc
 -->
 
-Way back in the [basic row indexing](../data-frames/df_basic_row_indexing), we
+Way back in the [basic row indexing](df_basic_row_indexing), we
 showed row selection by indexing into data frames with *Boolean vectors*, such
 as Pandas Series. We called this *direct indexing with Boolean Series* (DIBS).
 We also covered selecting columns by [indexing into data frames with column
-labels](../data-frames/df_basic_col_indexing).  We called this *direct indexing
+labels](df_basic_col_indexing).  We called this *direct indexing
 with column labels* (DICL).
 
 
@@ -176,7 +176,7 @@ will find it easier to think clearly about indexing.
 ## Indirect indexing
 
 To understand indirect indexing, we return to the [index of data frames and
-Series](../data-frames/df_index).  The *index* contains the *row labels* for a
+Series](df_index).  The *index* contains the *row labels* for a
 data frame or series.
 
 We start with our usual imports:
@@ -566,15 +566,15 @@ first_row.iloc[0]
 
 
 In the pages following the [data frame
-introduction](../data-frames/data_frame_intro), you saw that we can index into
+introduction](data_frame_intro), you saw that we can index into
 data frame directly, using `[ something ]` after the data frame value, without
 using `loc` or `iloc`.  Call this *direct indexing*.  This is a very reasonable
 thing to do if:
 
-* the `something` is a Boolean Series ([DIBS](../data-frames/df_basic_row_indexing)).
+* the `something` is a Boolean Series ([DIBS](df_basic_row_indexing)).
   This is not ambiguous.
 * the `something` is a column label or list of labels
-  ([DICL](../data-frames/df_basic_col_indexing)).  This isn't ambiguous either.
+  ([DICL](df_basic_col_indexing)).  This isn't ambiguous either.
 
 Both of these are entirely reasonable uses of direct indexing:
 
@@ -650,4 +650,4 @@ big_spender_names
 ```
 
 In fact you can use some Boolean sequences with `iloc` as well, but that needs
-[a little more explanation](../functions-conditionals/booleans_and_labels).
+[a little more explanation](booleans_and_labels).
