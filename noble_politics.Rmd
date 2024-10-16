@@ -60,7 +60,7 @@ the groups according to the answer they gave to the question "Did you belong to
 a political party before the war?".
 
 As usual, if you are running on your own computers, download the file
-{download}`oliner_tab6_8a_1.csv <../data/oliner_tab6_8a_1.csv>` to the same
+{download}`oliner_tab6_8a_1.csv <data/oliner_tab6_8a_1.csv>` to the same
 directory as this notebook.
 
 ```{python}

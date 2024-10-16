@@ -24,7 +24,7 @@ some subtleties in results.
 
 
 We return to the World Bank statistics on development and gender in
-{download}`gender_stats.csv <../data/gender_stats.csv>`.
+{download}`gender_stats.csv <data/gender_stats.csv>`.
 
 Download that file to the same directory as this notebook, if you are running
 on your own computer.

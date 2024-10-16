@@ -51,7 +51,7 @@ category.  Some examples are:
 * Did a person with a conviction for one offense offend again ("yes" or "no")?
 
 For this tutorial, we return to the [chronic kidney disease
-dataset](../data/chronic_kidney_disease).
+dataset](data/chronic_kidney_disease).
 
 Each row in this dataset represents one patient.
 

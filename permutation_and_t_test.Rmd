@@ -29,12 +29,12 @@ subjects who had drunk water, and 18 numbers corresponding to the "water" group.
 Here we repeat the permutation test, as a reminder.
 
 As before, you can download the data from
-{download}`mosquito_beer.csv <../data/mosquito_beer.csv>`.
+{download}`mosquito_beer.csv <data/mosquito_beer.csv>`.
 
 See [this
 page](https://github.com/matthew-brett/datasets/tree/master/mosquito_beer)
 for more details on the dataset, and [the data license
-page](../data/LICENSE).
+page](data/LICENSE).
 
 
 ```{python}

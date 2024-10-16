@@ -61,11 +61,11 @@ material](https://www.tandfonline.com/doi/suppl/10.1080/02602938.2016.1276155);
 it has the average rating across academic discipline for all professors in a
 particular discipline who have more than 20 ratings.
 
-See [the dataset page](../data/rate_my_professors) for more
+See [the dataset page](data/rate_my_professors) for more
 detail.
 
 If you are running on your laptop, you should download the
-{download}`rate_my_course.csv <../data/rate_my_course.csv>` file to the same
+{download}`rate_my_course.csv <data/rate_my_course.csv>` file to the same
 directory as this notebook.
 
 Don't worry about the code next cell.  It loads the data we need from a data

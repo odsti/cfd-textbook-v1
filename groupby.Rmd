@@ -28,7 +28,7 @@ This page follows from the [Crosstab](crosstab) page.
 As for the Crosstab page, we will use a dataset with data about passengers on
 the [RMS Titanic](https://en.wikipedia.org/wiki/Titanic).
 
-See [the Titanic dataset page](../data/titanic) for some more information about
+See [the Titanic dataset page](data/titanic) for some more information about
 this dataset, and a link to download the data.
 
 ```{python}

@@ -22,7 +22,7 @@ such a recipe to each value in a Pandas Series.
 This is the job of the `apply` method of a Series.
 
 To start, we load the familiar [Ratings
-data](../data/rate_my_professors), giving the average ratings on
+data](data/rate_my_professors), giving the average ratings on
 various measures for all rated professors teaching a subject,
 such as English, mathematics, and so on.
 

@@ -75,7 +75,7 @@ plt.style.use('fivethirtyeight')
 ```
 
 You can download the 2018 marks from
-{download}`havana_math_2018.csv <../data/havana_math_2018.csv>`.
+{download}`havana_math_2018.csv <data/havana_math_2018.csv>`.
 
 ```{python}
 havana_2018 = pd.read_csv('havana_math_2018.csv')
@@ -89,7 +89,7 @@ This was our sample of 50 marks from the 2019 examinations.  It has a mean of
 58.74.
 
 You can download the 2019 sample file from
-{download}`havana_math_2019_sample.csv <../data/havana_math_2019_sample.csv>`.
+{download}`havana_math_2019_sample.csv <data/havana_math_2019_sample.csv>`.
 
 ```{python}
 havana_2019_sample = pd.read_csv('havana_math_2019_sample.csv')

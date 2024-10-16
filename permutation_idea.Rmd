@@ -36,12 +36,12 @@ Pain](https://www.youtube.com/watch?v=5Dnw46eC-0o)
 ## The data
 
 If you want to run this notebook on your own computer, Download the data from
-{download}`mosquito_beer.csv <../data/mosquito_beer.csv>`.
+{download}`mosquito_beer.csv <data/mosquito_beer.csv>`.
 
 
 See [this
 page](https://github.com/matthew-brett/datasets/tree/master/mosquito_beer) for
-more details on the dataset, and [the data license page](../data/LICENSE).
+more details on the dataset, and [the data license page](data/LICENSE).
 
 
 ```{python}

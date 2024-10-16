@@ -105,7 +105,7 @@ Let us return to simple regression — using one set of values (on the x axis) t
 predict another set of values (on the y axis).
 
 Here is our familiar [chronic kidney disease
-dataset](../data/chronic_kidney_disease).
+dataset](data/chronic_kidney_disease).
 
 ```{python}
 ckd = pd.read_csv('ckd_clean.csv')

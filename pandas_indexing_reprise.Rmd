@@ -30,7 +30,7 @@ pd.set_option('mode.copy_on_write', True)
 We use the familiar dataset on student ratings of professors.  It is a table
 where the rows are course subjects and the columns include average ratings for
 all University professors / lecturers teaching that subject. See [the dataset
-page](../data/rate_my_professors) for more detail.
+page](data/rate_my_professors) for more detail.
 
 ```{python}
 # Load the dataset as a data frame

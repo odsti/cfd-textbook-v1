@@ -33,7 +33,7 @@ import pandas as pd
 pd.set_option('mode.copy_on_write', True)
 ```
 
-Download the {download}`ckd_clean.csv <../data/ckd_clean.csv>` file to the
+Download the {download}`ckd_clean.csv <data/ckd_clean.csv>` file to the
 same directory as this notebook, if you are running on your own computer.
 
 We fetch and process the data. See [mean and slopes](mean_and_slopes) for a slower description of this processing.

@@ -59,7 +59,7 @@ pd.set_option('mode.copy_on_write', True)
 We return to a version of our first data frame, containing statistics on
 development and gender from the World Bank.
 
-This is the {download}`gender_stats.csv <../data/gender_stats.csv>` file.
+This is the {download}`gender_stats.csv <data/gender_stats.csv>` file.
 See [the gender stats data
 page](https://github.com/matthew-brett/datasets/tree/master/gender_stats) for
 some more detail.
@@ -195,7 +195,7 @@ pd.set_option('mode.copy_on_write', True)
 We return to a version of our first data frame, containing statistics on
 development and gender from the World Bank.
 
-This is the {download}`gender_stats.csv <../data/gender_stats.csv>` file.
+This is the {download}`gender_stats.csv <data/gender_stats.csv>` file.
 See [the gender stats data
 page](https://github.com/matthew-brett/datasets/tree/master/gender_stats) for
 some more detail.

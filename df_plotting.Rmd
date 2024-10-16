@@ -18,7 +18,7 @@ jupyter:
 
 # Pandas plotting methods
 
-We start by loading our [familiar gender_data dataset](../data/gender_stats).
+We start by loading our [familiar gender_data dataset](data/gender_stats).
 
 ```{python}
 # Load the Numpy array library, call it 'np'
@@ -30,7 +30,7 @@ pd.set_option('mode.copy_on_write', True)
 ```
 
 If you are running on your laptop, you should download the
-{download}`gender_stats_min.csv <../data/gender_stats_min.csv>` file to the same
+{download}`gender_stats_min.csv <data/gender_stats_min.csv>` file to the same
 directory as this notebook.
 
 ```{python}

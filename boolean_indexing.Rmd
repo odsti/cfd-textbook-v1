@@ -53,14 +53,14 @@ a Boolean array between the square brackets.
 It can be easier to understand this by example than by description.
 
 
-We start with the [RateMyProfessors dataset](../data/rate_my_professors).
+We start with the [RateMyProfessors dataset](data/rate_my_professors).
 
 It is a table where the rows are academic disciplines, and the columns contain
 the average student rating values for the corresponding discipline.  We are
 going to fetch the columns from this table as arrays.
 
 If you are running on your laptop, you should download the
-{download}`rate_my_course.csv <../data/rate_my_course.csv>` file to the same
+{download}`rate_my_course.csv <data/rate_my_course.csv>` file to the same
 directory as this notebook.
 
 ```{python}

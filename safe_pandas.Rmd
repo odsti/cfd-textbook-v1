@@ -60,7 +60,7 @@ trouble, if you cannot use `mode.copy_on_write`.
 Consider this DataFrame, which should be familiar. It is a table where the
 rows are course subjects and the columns include average ratings for all
 University professors / lecturers teaching that subject. See [the dataset
-page](../data/rate_my_professors) for more detail.
+page](data/rate_my_professors) for more detail.
 
 ```{python}
 import pandas as pd

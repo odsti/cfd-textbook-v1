@@ -38,7 +38,7 @@ As in the *noble politics* page, we load the table of counts from table 6.8 of:
 > Rescuers of Jews in Nazi Europe". Free Press, New York. ISBN 0-02923829-3.
 
 As usual, if you are running on your own computers, download the file
-{download}`oliner_tab6_8a_1.csv <../data/oliner_tab6_8a_1.csv>` to the same directory as this notebook.
+{download}`oliner_tab6_8a_1.csv <data/oliner_tab6_8a_1.csv>` to the same directory as this notebook.
 
 ```{python}
 # Load the table

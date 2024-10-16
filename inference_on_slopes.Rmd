@@ -50,7 +50,7 @@ pd.set_option('mode.copy_on_write', True)
 ```
 
 If you are running on your laptop, you will need to download the
-{download}`rate_my_course.csv file <../data/rate_my_course.csv>`.
+{download}`rate_my_course.csv file <data/rate_my_course.csv>`.
 
 We read the data and get the columns:
 

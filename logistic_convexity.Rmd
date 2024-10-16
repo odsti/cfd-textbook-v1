@@ -43,7 +43,7 @@ of the answer linked above.
 ## The background, the data
 
 In that page we were trying to looking at the [chronic kidney disease
-dataset](../data/chronic_kidney_disease), to see if we good predict whether a
+dataset](data/chronic_kidney_disease), to see if we good predict whether a
 patient had "good" appetite (as opposed to "poor" appetite) given that
 patient's blood hemoglobin concentration.
 

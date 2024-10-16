@@ -19,10 +19,10 @@ jupyter:
 
 This is an example of merging in the familiar [mosquito
 beer](https://github.com/matthew-brett/datasets/tree/master/mosquito_beer)
-dataset.  Please also look at the [the data license page](../data/LICENSE).
+dataset.  Please also look at the [the data license page](data/LICENSE).
 
 If you want to run this notebook on your own computer, Download the data from
-{download}`mosquito_beer.csv <../data/mosquito_beer.csv>`.
+{download}`mosquito_beer.csv <data/mosquito_beer.csv>`.
 
 ```{python}
 # Import Numpy library, rename as "np"
