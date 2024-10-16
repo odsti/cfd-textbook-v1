@@ -570,7 +570,7 @@ We found the best (sum of squares) slope by trying lots of slopes, above, and th
 
 You don't need to understand the argument below, to follow this class, but in
 this case we can work out the best slope with some [fairly simple calculus and
-algebra](../extra/slope_deviations).  It turns out like this:
+algebra](slope_deviations).  It turns out like this:
 
 ```{python}
 maths_slope = np.sum(hgb * pcv) / np.sum(hgb ** 2)

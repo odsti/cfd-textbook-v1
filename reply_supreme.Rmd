@@ -82,7 +82,7 @@ import numpy as np
 rng = np.random.default_rng()
 ```
 
-Here we use the [random choice method](../arrays/rng_choice) to simulate one
+Here we use the [random choice method](rng_choice) to simulate one
 jury, and count the number of Black people in the simulated jury.
 
 ```{python}

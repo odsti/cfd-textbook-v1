@@ -28,7 +28,7 @@ rng = np.random.default_rng()
 It is often the case in programming – especially when dealing with randomness
 — that we want to repeat a process multiple times.
 
-We know the [`choice` method of the `rng` object](../arrays/rng_choice)
+We know the [`choice` method of the `rng` object](rng_choice)
 claims to choose randomly between options we specify:
 
 ```{python}

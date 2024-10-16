@@ -143,7 +143,7 @@ about by chance?  This is the question we answer with *inference*.
 
 ## Inference
 
-Remember the [steps in inference](../iteration/inference).
+Remember the [steps in inference](inference).
 
 * Find the **data**. In our case, these are the data in `tea_df` DataFrame.
 * Calculate some **measure of interest** from the data.  Call this the

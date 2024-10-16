@@ -239,7 +239,7 @@ In fact, this is a property of the mean.  The deviations from the mean sum to
 zero.
 
 In fact, it is not very hard to show that the deviations [must sum to
-zero](../extra/mean_deviations).
+zero](mean_deviations).
 
 
 ## Sum of squared deviations
@@ -360,7 +360,7 @@ plt.ylabel('Sum of squares');
 ```
 
 We would have to use some [fairly simple calculus and
-algebra](../extra/mean_sq_deviations) to show this, but the *mean* has to give
+algebra](mean_sq_deviations) to show this, but the *mean* has to give
 the lowest sum of squares error.
 
 Put another way, the mean minimizes:

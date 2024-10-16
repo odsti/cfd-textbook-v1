@@ -47,7 +47,7 @@ labeled_gdata
 ## Selecting columns
 
 You have seen array indexing (in [Selecting with
-arrays](../arrays/array_indexing).  You remember that array indexing uses
+arrays](array_indexing).  You remember that array indexing uses
 square brackets.  *Indexing* is the technical term for getting data from a
 value using square brackets.  Data frames also allow indexing.  For example, we
 often want to get all the data for a single column of the data frame.  To do

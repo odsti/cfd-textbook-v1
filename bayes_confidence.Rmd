@@ -549,7 +549,7 @@ confident that the eventual population mean will be less than or equal to this
 value.
 
 To get this value, we can use the `np.cumsum` function, first mentioned in the
-[arrays](../arrays/Arrays) page. It takes an input array say `a`, and returns
+[arrays](Arrays) page. It takes an input array say `a`, and returns
 another array, say `b` that is the same size as `a`, but which has, at each
 element, the result of summing up all the elements in `a` up to the
 corresponding position.  This might be clearer by example:

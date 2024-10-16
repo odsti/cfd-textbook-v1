@@ -88,7 +88,7 @@ What would we see, if we took another random sample of Easiness and Quality valu
 
 
 We return to the permutation trick we used in [Brexit
-ages](../permutation/population_permutation). If there is, in fact, no
+ages](population_permutation). If there is, in fact, no
 relationship between Quality and Easiness, then the slope, suggesting an
 association of Quality and Easiness, is just a result of random sampling.
 

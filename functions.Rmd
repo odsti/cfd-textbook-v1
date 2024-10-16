@@ -146,8 +146,8 @@ Between the parentheses, we have the function signature.  This specifies how man
 
 Finally there is a colon `:` signifying the end of the signature.
 
-As in [for loops](../iteration/iteration), the colon signifies that the next
-bit of code must be [indented](../iteration/indentation).
+As in [for loops](iteration), the colon signifies that the next
+bit of code must be [indented](indentation).
 
 Here is the indented part:
 
@@ -359,4 +359,4 @@ result is None
 
 That's it for the introduction.  For a less basic description, have
 a look at the [Berkeley introduction to
-functions](../extra/data8_functions.Rmd).
+functions](data8_functions.Rmd).
