@@ -23,48 +23,25 @@ jupyter:
     version: 3.7.1
 ---
 
-# Lists
+# Lists and arrays
 
 The data structures that we use most often in data science are:
 
 * arrays, from `numpy`;
 * data frames, from `pandas`.
 
-There is another data structure for containing sequences of values
-- the `list`.
+You have already seen that Python has a basic container for a sequence of values — the [list](lists).
 
-You have already seen these in passing, when we created arrays.  Now we cover them in more detail.
-
-## Creating a list
-
-You make a list like this:
+As you have already seen, you can make a list like this:
 
 ```{python}
 my_list = [1, 2, 3]
 my_list
 ```
 
-More formally, you define a list like this:
-
-1. the open square bracket character `[`, followed by
-1. a sequence of zero of more values, separated by commas, followed by
-1. the close square bracket character `]`.
-
-We defined the list above with `[1, 2, 3]`.
-
-Here is a list with one value:
-
-```{python}
-another_list = [99]
-another_list
-```
-
-As implied above, the list can be empty, in which case there is nothing between the `[` and the `]`:
-
-```{python}
-empty_list = []
-empty_list
-```
+`[1, 2, 3]` is a *list expression*, with a open square bracket
+`[`, followed by zero or more expressions defining the list
+elements, separated by commas, and ending with the close square bracket `]`.
 
 A list is of type `list`:
 
@@ -74,7 +51,7 @@ type(my_list)
 
 ## Lists and arrays
 
-We will soon need the Numpy library for the examples:
+Now we need the Numpy library for the examples:
 
 ```{python}
 import numpy as np

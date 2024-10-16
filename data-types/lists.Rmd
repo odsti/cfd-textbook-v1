@@ -87,6 +87,12 @@ my_numbers = [1, 2, 3]
 my_numbers
 ```
 
+More formally, you define a list like this:
+
+1. the open square bracket character `[`, followed by
+1. a sequence of zero of more values, separated by commas, followed by
+1. the close square bracket character `]`.
+
 `[1, 2, 3]` is a *list expression* because it is a recipe that results in
 a value that is a list).  We confirm it is an expression by showing that the notebook displays a value:
 
@@ -98,6 +104,13 @@ What kind of value is it?
 
 ```{python}
 type(my_numbers)
+```
+
+Here is a list with one value:
+
+```{python}
+another_list = [99]
+another_list
 ```
 
 Lists can be empty.  To make an empty list, put nothing inside the square brackets, like this:
