@@ -229,8 +229,8 @@ value that comes back from `9.25 * 0.15` above.
 
 ## Call subexpressions
 
-Let's say I have imported my `cos` function (see the [functions](functions)
-page):
+Let's say I have imported my `cos` function (see the [introduction to
+functions](intro_to_functions) page):
 
 ```{python}
 # Get the cos function from the numpy library.

@@ -29,7 +29,7 @@ parts:
       # good_names exercise
       - file: code-basics/Expressions
       # basic_names exercise
-      - file: code-basics/functions
+      - file: code-basics/intro_to_functions
       - file: code-basics/Calls
       # rounding exercise
       # exprs_states exercise
