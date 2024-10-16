@@ -53,7 +53,7 @@ You can download the file from
 {download}`havana_math_2018.csv <data/havana_math_2018.csv>`.
 
 ```{python}
-havana_2018 = pd.read_csv('havana_math_2018.csv')
+havana_2018 = pd.read_csv('data/havana_math_2018.csv')
 # Drop missing marks.
 havana_2018 = havana_2018.dropna()
 havana_2018.head()
@@ -98,7 +98,7 @@ You can download the sample file from
 {download}`havana_math_2019_sample.csv <data/havana_math_2019_sample.csv>`.
 
 ```{python}
-havana_2019_sample = pd.read_csv('havana_math_2019_sample.csv')
+havana_2019_sample = pd.read_csv('data/havana_math_2019_sample.csv')
 havana_2019_sample.head()
 ```
 

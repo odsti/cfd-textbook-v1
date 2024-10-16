@@ -35,7 +35,7 @@ pd.set_option('mode.copy_on_write', True)
 ```
 
 ```{python}
-ratings = pd.read_csv('rate_my_course.csv')
+ratings = pd.read_csv('data/rate_my_course.csv')
 ratings.head()
 ```
 
@@ -211,7 +211,7 @@ page](https://github.com/odsti/datasets/tree/regalton/galtons_heights).
 The `galton_combined.csv` file has the data Galton used in his paper:
 
 ```{python}
-galton = pd.read_csv('galton_combined.csv')
+galton = pd.read_csv('data/galton_combined.csv')
 galton.head()
 ```
 

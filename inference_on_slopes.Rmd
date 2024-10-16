@@ -56,7 +56,7 @@ We read the data and get the columns:
 
 ```{python}
 # Read the data file
-ratings = pd.read_csv('rate_my_course.csv')
+ratings = pd.read_csv('data/rate_my_course.csv')
 # Convert Easiness and Overall Quality measures to arrays.
 easiness = np.array(ratings['Easiness'])
 quality = np.array(ratings['Overall Quality'])

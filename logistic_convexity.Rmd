@@ -48,7 +48,7 @@ patient had "good" appetite (as opposed to "poor" appetite) given that
 patient's blood hemoglobin concentration.
 
 ```{python tags=c("hide-cell")}
-df = pd.read_csv('ckd_clean.csv')
+df = pd.read_csv('data/ckd_clean.csv')
 # Our columns of interest.
 hgb_app = df.loc[:, ['Hemoglobin', 'Appetite']]
 # Dummy value column containing 0 for "poor" Appetite, 1 for "good".

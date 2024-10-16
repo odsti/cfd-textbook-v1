@@ -28,7 +28,7 @@ plt.style.use('fivethirtyeight')
 ```
 
 ```{python tags=c("hide-cell")}
-colors = pd.read_csv('roulette_wheel.csv')['Color']
+colors = pd.read_csv('data/roulette_wheel.csv')['Color']
 pockets = ['0','00']
 for i in np.arange(1, 37):
     pockets.append(str(i))
@@ -204,7 +204,7 @@ The table `united` contains data on departure delays of 13,667 United Airlines
 domestic flights out of San Francisco airport in the summer of 2015. The distribution of delays has a long right-hand tail.
 
 ```{python}
-united = pd.read_csv('summer_united.csv')
+united = pd.read_csv('data/summer_united.csv')
 delays = united['Delay']
 ```
 

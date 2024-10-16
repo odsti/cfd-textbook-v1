@@ -108,7 +108,7 @@ Here is our familiar [chronic kidney disease
 dataset](data/chronic_kidney_disease).
 
 ```{python}
-ckd = pd.read_csv('ckd_clean.csv')
+ckd = pd.read_csv('data/ckd_clean.csv')
 ckd
 ```
 

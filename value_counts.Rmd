@@ -35,7 +35,7 @@ Here we load a dataset with information on the passengers and crew on the [RMS
 Titanic](https://en.wikipedia.org/wiki/Titanic).
 
 ```{python}
-titanic = pd.read_csv('titanic_stlearn.csv')
+titanic = pd.read_csv('data/titanic_stlearn.csv')
 titanic.head()
 ```
 

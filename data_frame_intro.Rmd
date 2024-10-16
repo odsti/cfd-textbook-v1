@@ -49,7 +49,7 @@ detail on the dataset.
 
 ```{python}
 # Load the data file
-gender_data = pd.read_csv('gender_stats_min.csv')
+gender_data = pd.read_csv('data/gender_stats_min.csv')
 ```
 
 This is our usual assignment statement. The Left Hand Side (LHS) is

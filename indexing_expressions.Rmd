@@ -108,7 +108,7 @@ a[b]  # Indexing with Boolean array
 Here is our familiar data frame of data from the World Bank:
 
 ```{python}
-df = pd.read_csv('gender_stats.csv')
+df = pd.read_csv('data/gender_stats.csv')
 df
 ```
 

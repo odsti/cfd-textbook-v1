@@ -61,7 +61,7 @@ plt.style.use('fivethirtyeight')
 ```
 
 ```{python}
-mosquitoes = pd.read_csv('mosquito_beer.csv')
+mosquitoes = pd.read_csv('data/mosquito_beer.csv')
 mosquitoes.head()
 ```
 

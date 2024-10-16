@@ -31,7 +31,7 @@ You can download the data file from {download}`imdblet_latin.csv
 <data/imdblet_latin.csv>`.
 
 ```{python}
-films = pd.read_csv('imdblet_latin.csv', encoding='latin1')
+films = pd.read_csv('data/imdblet_latin.csv', encoding='latin1')
 films.head()
 ```
 

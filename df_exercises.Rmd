@@ -45,7 +45,7 @@ a dataframe (save the file to the same directory from which you
 are running this notebook to make your life easier).
 
 ```{python}
-iris = pd.read_csv('iris.csv')
+iris = pd.read_csv('data/iris.csv')
 ```
 
 At this moment we have no clue about what data are contained

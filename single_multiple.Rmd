@@ -76,7 +76,7 @@ Here is our familiar [chronic kidney disease
 dataset](data/chronic_kidney_disease).
 
 ```{python}
-ckd = pd.read_csv('ckd.csv')
+ckd = pd.read_csv('data/ckd.csv')
 ckd.head()
 ```
 

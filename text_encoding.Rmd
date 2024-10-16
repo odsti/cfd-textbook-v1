@@ -30,7 +30,7 @@ pd.set_option('mode.copy_on_write', True)
 Consider the following annoying situation.  You can download the data file from {download}`imdblet_latin.csv <data/imdblet_latin.csv>`.
 
 ```{python tags=c("raises-exception")}
-films = pd.read_csv('imdblet_latin.csv')
+films = pd.read_csv('data/imdblet_latin.csv')
 ```
 
 The next sections are about why this happens, and therefore, how to fix it.
@@ -195,6 +195,6 @@ In this case, as the filename suggests, the bytes for the text are in Latin
 1 encoding.  We can tell Pandas about this with the `encoding=` option:
 
 ```{python}
-films = pd.read_csv('imdblet_latin.csv', encoding='latin1')
+films = pd.read_csv('data/imdblet_latin.csv', encoding='latin1')
 films.head()
 ```

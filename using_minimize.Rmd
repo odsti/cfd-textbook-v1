@@ -45,7 +45,7 @@ Overall Quality ratings.
 
 ```{python}
 # Read the data file, get columns as arrays.
-ratings = pd.read_csv('rate_my_course.csv')
+ratings = pd.read_csv('data/rate_my_course.csv')
 easiness = np.array(ratings['Easiness'])
 quality = np.array(ratings['Overall Quality'])
 plt.plot(easiness, quality, 'o')

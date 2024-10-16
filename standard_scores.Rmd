@@ -43,7 +43,7 @@ Download the data to your computer via this link: {download}`ckd_clean.csv
 <data/ckd_clean.csv>`.
 
 ```{python}
-ckd_full = pd.read_csv('ckd_clean.csv')
+ckd_full = pd.read_csv('data/ckd_clean.csv')
 ckd_full.head()
 ```
 

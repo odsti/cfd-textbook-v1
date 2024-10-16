@@ -35,7 +35,7 @@ directory as this notebook.
 
 ```{python}
 # Load the data file
-gender_data = pd.read_csv('gender_stats_min.csv')
+gender_data = pd.read_csv('data/gender_stats_min.csv')
 gender_data.head()
 ```
 

@@ -38,7 +38,7 @@ least-squares straight-line fit between two columns of values in
 patients with chronic kidney disease:
 
 ```{python}
-ckd = pd.read_csv('ckd.csv')
+ckd = pd.read_csv('data/ckd.csv')
 ckd.head()
 ```
 

@@ -93,7 +93,7 @@ If you are running on your laptop, you should download the
 directory as this notebook.
 
 ```{python}
-ckd_full = pd.read_csv('ckd.csv')
+ckd_full = pd.read_csv('data/ckd.csv')
 ckd_full.head()
 ```
 

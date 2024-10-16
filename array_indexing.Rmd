@@ -81,7 +81,7 @@ import pandas as pd
 # We'll come on to this setting later.
 pd.set_option('mode.copy_on_write', True)
 # Read the file.
-courses = pd.read_csv('rate_my_course.csv')
+courses = pd.read_csv('data/rate_my_course.csv')
 # Sort the courses by number of rated teachers, most first.
 courses_by_n = courses.sort_values(
     'Number of Professors', ascending=False)

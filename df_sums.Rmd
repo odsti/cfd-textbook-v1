@@ -42,7 +42,7 @@ As usual, if you are running on your own computers, download the file
 
 ```{python}
 # Load the table
-party_tab = pd.read_csv('oliner_tab6_8a_1.csv')
+party_tab = pd.read_csv('data/oliner_tab6_8a_1.csv')
 party_tab
 ```
 

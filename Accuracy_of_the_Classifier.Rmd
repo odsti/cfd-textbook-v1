@@ -74,7 +74,7 @@ You can download the data file for this page from
 {download}`wine.csv <data/wine.csv>`.
 
 ```{python tags=c("hide-cell")}
-wine = pd.read_csv('wine.csv')
+wine = pd.read_csv('data/wine.csv')
 wine.loc[wine['Class'] != 1, 'Class'] = 0
 ```
 
@@ -153,7 +153,7 @@ We end up with the following data set.  For the "Class" column, 1 means malignan
 Download the file from {download}`breast-cancer.csv <data/breast-cancer.csv>`.
 
 ```{python}
-patients = pd.read_csv('breast-cancer.csv')
+patients = pd.read_csv('data/breast-cancer.csv')
 patients = patients.drop(columns='ID')
 patients.head()
 ```

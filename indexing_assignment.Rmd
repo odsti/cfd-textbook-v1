@@ -38,7 +38,7 @@ pd.set_option('mode.copy_on_write', True)
 
 ```{python}
 # Read the CSV to a DataFrame.
-ratings = pd.read_csv('rate_my_course.csv')
+ratings = pd.read_csv('data/rate_my_course.csv')
 # Change the default numerical row labels to be the discipline name.
 named_ratings = ratings.set_index('Discipline')
 named_ratings.head()

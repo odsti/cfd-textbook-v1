@@ -65,7 +65,7 @@ directory as this notebook.
 
 ```{python}
 # Load the table
-party_tab = pd.read_csv('oliner_tab6_8a_1.csv')
+party_tab = pd.read_csv('data/oliner_tab6_8a_1.csv')
 party_tab
 ```
 

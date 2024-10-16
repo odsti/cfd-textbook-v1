@@ -37,7 +37,7 @@ If you are running on your laptop, you should download the
 same directory as this notebook.
 
 ```{python}
-banknotes = pd.read_csv('banknote.csv')
+banknotes = pd.read_csv('data/banknote.csv')
 banknotes.head()
 ```
 
@@ -129,7 +129,7 @@ You can download the file from
 {download}`wine.csv <data/wine.csv>`.
 
 ```{python}
-wine = pd.read_csv('wine.csv')
+wine = pd.read_csv('data/wine.csv')
 wine.head()
 ```
 

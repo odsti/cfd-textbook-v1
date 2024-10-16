@@ -30,7 +30,7 @@ dataset](https://www.rdocumentation.org/packages/datasets/versions/3.6.2/topics/
 that will be very familiar to users of R:
 
 ```{python}
-mtcars = pd.read_csv('mtcars.csv')
+mtcars = pd.read_csv('data/mtcars.csv')
 mtcars.head()
 ```
 

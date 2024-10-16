@@ -43,7 +43,7 @@ Here is the original table `ckd` containing data on patients who were tested for
 The data file is {download}`ckd.csv <data/ckd.csv>`.
 
 ```{python}
-ckd_full = pd.read_csv('ckd.csv')
+ckd_full = pd.read_csv('data/ckd.csv')
 ckd_full.head()
 ```
 

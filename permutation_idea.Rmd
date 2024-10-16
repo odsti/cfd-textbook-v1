@@ -74,7 +74,7 @@ rng = np.random.default_rng(seed=42)
 Read in the data:
 
 ```{python}
-mosquitoes = pd.read_csv('mosquito_beer.csv')
+mosquitoes = pd.read_csv('data/mosquito_beer.csv')
 mosquitoes.head()
 ```
 

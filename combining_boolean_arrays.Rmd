@@ -36,7 +36,7 @@ plt.style.use('fivethirtyeight')
 
 ```{python}
 # Read the data file
-ratings = pd.read_csv('rate_my_course.csv')
+ratings = pd.read_csv('data/rate_my_course.csv')
 ratings.head()
 ```
 

@@ -53,7 +53,7 @@ To make things a bit easier this dataset is a version from which we have already
 
 ```{python}
 # Run this cell
-ckd = pd.read_csv('ckd_clean.csv')
+ckd = pd.read_csv('data/ckd_clean.csv')
 ckd.head()
 ```
 

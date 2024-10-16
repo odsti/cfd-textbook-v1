@@ -59,7 +59,7 @@ As you may remember, the setup for the experiment was the following:
   that flew out of the box into the plastic tube.
 
 ```{python}
-mosquitoes = pd.read_csv('mosquito_beer.csv')
+mosquitoes = pd.read_csv('data/mosquito_beer.csv')
 mosquitoes.head()
 ```
 

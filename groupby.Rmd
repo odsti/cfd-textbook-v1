@@ -33,7 +33,7 @@ this dataset, and a link to download the data.
 
 ```{python}
 # Load the dataset
-df = pd.read_csv('titanic_clean.csv')
+df = pd.read_csv('data/titanic_clean.csv')
 df.head()
 ```
 

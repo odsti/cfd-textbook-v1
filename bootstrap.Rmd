@@ -67,7 +67,7 @@ transportation workers, elected officials, and all other employees of the City.
 Compensation data for the calendar year 2015 are in the table `sf2015`.
 
 ```{python}
-sf2015 = pd.read_csv('san_francisco_2015.csv')
+sf2015 = pd.read_csv('data/san_francisco_2015.csv')
 sf2015.head()
 ```
 

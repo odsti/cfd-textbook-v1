@@ -87,7 +87,7 @@ Read in the data, select the "after" counts, and the "activated" column.
 The "group" column has the allocated drink: "beer" or "water".
 
 ```{python}
-mosquitoes = pd.read_csv('mosquito_beer.csv')
+mosquitoes = pd.read_csv('data/mosquito_beer.csv')
 after_activated = mosquitoes.loc[mosquitoes['test'] == 'after',
                                  ['group', 'activated']]
 after_activated

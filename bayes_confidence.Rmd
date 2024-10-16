@@ -78,7 +78,7 @@ You can download the 2018 marks from
 {download}`havana_math_2018.csv <data/havana_math_2018.csv>`.
 
 ```{python}
-havana_2018 = pd.read_csv('havana_math_2018.csv')
+havana_2018 = pd.read_csv('data/havana_math_2018.csv')
 # Drop missing marks.
 marks_2018 = havana_2018['mark'].dropna()
 mean_2018 = marks_2018.mean()
@@ -92,7 +92,7 @@ You can download the 2019 sample file from
 {download}`havana_math_2019_sample.csv <data/havana_math_2019_sample.csv>`.
 
 ```{python}
-havana_2019_sample = pd.read_csv('havana_math_2019_sample.csv')
+havana_2019_sample = pd.read_csv('data/havana_math_2019_sample.csv')
 observed_sample_mean = np.mean(havana_2019_sample['mark'])
 observed_sample_mean
 ```

@@ -56,7 +56,7 @@ pd.set_option('mode.copy_on_write', True)
 
 ```{python}
 # Read the file as a data frame.
-courses = pd.read_csv('rate_my_course.csv')
+courses = pd.read_csv('data/rate_my_course.csv')
 ```
 
 ```{python}

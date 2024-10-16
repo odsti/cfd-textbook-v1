@@ -64,7 +64,7 @@ with numbers (1 / 0).
 Many of the rest of the columns are measurements from blood tests and urine tests.
 
 ```{python}
-df = pd.read_csv('ckd_clean.csv')
+df = pd.read_csv('data/ckd_clean.csv')
 df.head()
 ```
 

@@ -89,7 +89,7 @@ directory as this notebook.
 
 ```{python tags=c("hide-cell")}
 # HIDDEN
-ckd_full = pd.read_csv('ckd.csv')
+ckd_full = pd.read_csv('data/ckd.csv')
 ckd = pd.DataFrame()
 ckd['Hemoglobin'] = standard_units(ckd_full['Hemoglobin'])
 ckd['Glucose'] = standard_units(ckd_full['Blood Glucose Random'])

@@ -58,7 +58,7 @@ water.  See the [the idea of permutation](permutation_idea) page.
 
 ```{python}
 # Read in the data, select beer and water values.
-mosquitoes = pd.read_csv('mosquito_beer.csv')
+mosquitoes = pd.read_csv('data/mosquito_beer.csv')
 after_rows = mosquitoes[mosquitoes['test'] == 'after']
 beer_rows = after_rows[after_rows['group'] == 'beer']
 beer_activated = np.array(beer_rows['activated'])

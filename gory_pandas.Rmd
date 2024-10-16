@@ -46,7 +46,7 @@ columns include average ratings for all University professors / lecturers
 teaching that subject. See [the dataset page](data/rate_my_professors) for more detail.
 
 ```{python}
-ratings = pd.read_csv('rate_my_course.csv')
+ratings = pd.read_csv('data/rate_my_course.csv')
 ratings.head()
 ```
 

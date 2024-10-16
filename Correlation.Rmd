@@ -64,7 +64,7 @@ of the University of Florida. The columns:
 You can download the file via {download}`hybrid.csv <data/hybrid.csv>`.
 
 ```{python}
-hybrid = pd.read_csv('hybrid.csv')
+hybrid = pd.read_csv('data/hybrid.csv')
 hybrid.head()
 ```
 
@@ -569,7 +569,7 @@ average of the total scores on the test.
 You can download the file via {download}`sat2014.csv <data/sat2014.csv>`.
 
 ```{python}
-sat2014 = pd.read_csv('sat2014.csv').sort_values('State')
+sat2014 = pd.read_csv('data/sat2014.csv').sort_values('State')
 sat2014.head()
 ```
 

@@ -49,7 +49,7 @@ Volume (PCV) blood measure:
 
 ```{python}
 # Run this cell
-ckd = pd.read_csv('ckd_clean.csv')
+ckd = pd.read_csv('data/ckd_clean.csv')
 hgb = np.array(ckd['Hemoglobin'])
 pcv = np.array(ckd['Packed Cell Volume'])
 # Plot HGB on the x axis, PCV on the y axis

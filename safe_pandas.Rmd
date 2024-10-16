@@ -71,7 +71,7 @@ Notice that we have not yet enabled the `mode.copy_on_write` option.
 We get the ratings:
 
 ```{python}
-all_ratings = pd.read_csv('rate_my_course.csv')
+all_ratings = pd.read_csv('data/rate_my_course.csv')
 ```
 
 To ease some later exposition, we select the first 10 rows, and set the row

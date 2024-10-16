@@ -61,7 +61,7 @@ the other columns.
 <!-- #endregion -->
 
 ```{python}
-all_sales = pd.read_csv('house.csv')
+all_sales = pd.read_csv('data/house.csv')
 sales = all_sales.loc[np.logical_and(all_sales['Bldg Type'] == '1Fam',
                       all_sales['Sale Condition'] == 'Normal'),
     ['SalePrice', '1st Flr SF', '2nd Flr SF',

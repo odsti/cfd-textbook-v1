@@ -34,7 +34,7 @@ page](data/rate_my_professors) for more detail.
 
 ```{python}
 # Load the dataset as a data frame
-ratings = pd.read_csv('rate_my_course.csv')
+ratings = pd.read_csv('data/rate_my_course.csv')
 # Reorder by Easiness
 ratings_by_easy = ratings.sort_values('Easiness', ascending=False)
 # Make a smaller data frame with the first six rows

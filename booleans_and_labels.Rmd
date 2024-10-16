@@ -44,7 +44,7 @@ pd.set_option('mode.copy_on_write', True)
 
 ```{python}
 # Load the data file as a data frame.
-gender_data = pd.read_csv('gender_stats.csv')
+gender_data = pd.read_csv('data/gender_stats.csv')
 
 # Sort by GDP.
 df_by_gdp = gender_data.sort_values('gdp_us_billion', ascending=False)
