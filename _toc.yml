@@ -157,6 +157,7 @@ parts:
       # ryostd
       - file: mean-slopes/Correlation
     # on_regression
+      - file: on_multiple_regression
   - caption: Classification
     chapters:
       - file: classification/classification
