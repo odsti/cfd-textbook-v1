@@ -1,6 +1,6 @@
 # Todo
 
-Page on official name, variable name for module import. Covering:
+Page on official name, variable name for module import.  Covering:
 
 ```{python}
 import numpy
@@ -103,9 +103,7 @@ have the answer we need.
 
 ## Boolean indexing to set values
 
-Add more on this in
-https://lisds.github.io/textbook/data-frames/boolean_indexing.html#setting-values-with-boolean-arrays
-and add somewhere for Pandas indexing.
+Add more on this in the `data-frames/boolean_indexing.html#setting-values-with-boolean-arrays` section and add somewhere for Pandas indexing.
 
 ## Orphan pages
 

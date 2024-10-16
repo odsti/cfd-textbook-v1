@@ -1,8 +1,8 @@
-name: lisds-environment
+name: odsti-environment
 channels:
   - conda-forge
 dependencies:
-  - python=3.9
+  - python=3.10
   - pip
   - pip:
       - -r requirements.txt

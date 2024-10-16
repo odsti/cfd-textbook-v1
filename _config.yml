@@ -1,12 +1,12 @@
 # Book settings
-title: "Introduction to Data Science"
-author: Matthew Brett, Ani Adhikari, John Denero, David Wagner
+title : "Coding for data"
+author: Matthew Brett, Peter Rush, Ani Adhikari, John Denero, David Wagner
 logo: images/dsfe_logo.png
 email: matthew.brett@gmail.com
 # >- starts a multiline string, where newlines replaced by spaces, and final
 # newlines are stripped.
 description: >-
-  Textbook for London Interdisciplinary School Data Science module.
+  Introductory textbook for data science
 
 execute:
   # 'cache' attempts to cache the results.
@@ -31,22 +31,22 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://lisds.github.io/textbook
+  baseurl: https://odsti.github.io/cfd-textbook
 
 repository:
-  url: https://github.com/lisds/textbook
+  url: https://github.com/odsti/cfd-textbook
   branch: main
 
 launch_buttons:
   # The interface interactive links will activate ["classic", "jupyterlab"]
-  notebook_interface: "jupyterlab"
+  notebook_interface: "classic"
   # The URL of the JupyterHub (e.g., https://datahub.berkeley.edu)
-  jupyterhub_url: "https://ds.lis.2i2c.cloud"
+  # jupyterhub_url: "https://ds.lis.2i2c.cloud"
   # The URL of the BinderHub (e.g., https://mybinder.org)
   binderhub_url: "https://mybinder.org"
   # The URL of Google Colab (e.g., https://colab.research.google.com)
   # colab_url: "https://colab.research.google.com"
-  thebe: true
+  # thebe: true
 
 sphinx:
   config:
@@ -75,7 +75,7 @@ sphinx:
 
 latex:
   latex_documents:
-    targetname: lisds_textbook.tex
+    targetname: odsti_textbook.tex
 
 bibtex_bibfiles:
   - bib/course_refs.bib

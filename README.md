@@ -1,11 +1,12 @@
 # Coding for data courses
 
-Course materials and notes for data science courses at the London Interdisciplinary School.
+Course materials and notes for the Open Data Science Teaching Initiative
+introductory data science course.
 
-This textbook is based on the Berkeley Foundations of Data Science
-course. The most recent version of the course is at [Computational and
-Inferential Thinking](https://www.inferentialthinking.com). The
-repository for the textbook is [on
+This textbook takes its general approach and some pages from the Berkeley
+Foundations of Data Science course. The most recent version of the course is at
+[Computational and Inferential Thinking](https://www.inferentialthinking.com).
+The repository for the textbook is [on
 Github](https://github.com/data8/textbook).
 
 Versions of the Berkeley course come from the last commit in that
@@ -23,26 +24,27 @@ thanks to the authors.
 
 Say your Github username is `my-gh-user`.
 
-Go to the repository page that houses this README - for example <https://github.co/lisds/textbook>.
+Go to the repository page that houses this README - for example
+<https://github.co/odsti/cfd-textbook>.
 
 Click on "Fork" button near top right, to make your own fork of the
 repository, that will now be at `https://github.com/my-gh-user/<repo-name>` where `<repo-name>` is the name of the repository housing this README.
 
 The following assumes that the README is in
-<https://github.com/lisds/textbook>. The name of the repository is
-therefore `textbook`. Substitute URL and repository name throughout.
+<https://github.com/odsti/cfd-textbook>.  The name of the repository is
+therefore `cfd-textbook`.  Substitute URL and repository name throughout.
 
 Clone the main repo:
 
 ```
-git clone https://github.com/lisds/textbook
+git clone https://github.com/odsti/cfd-textbook
 ```
 
 Add a remote for your fork:
 
 ```
-cd textbook
-git remote add my-gh-user https://github.com/my-gh-user/textbook.git
+cd cfd-textbook
+git remote add my-gh-user https://github.com/my-gh-user/cfd-textbook.git
 git fetch my-gh-user
 ```
 
