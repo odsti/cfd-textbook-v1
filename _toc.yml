@@ -3,205 +3,205 @@ root: intro
 parts:
   - caption: Coding for data
     chapters:
-      - file: intro/what-is-data-science
-      - file: intro/why-data-science
-      - file: intro/tools_techniques
+      - file: what-is-data-science
+      - file: why-data-science
+      - file: tools_techniques
         sections:
-          - file: intro/computational-tools
-          - file: intro/statistical-techniques
-      - file: intro/text-is-data
+          - file: computational-tools
+          - file: statistical-techniques
+      - file: text-is-data
         sections:
-          - file: intro/Plotting_the_Classics
-          - file: intro/Literary_Characters
-          - file: intro/Another_Kind_Of_Character
-      - file: intro/surviving_computers
-      - file: intro/the_software
-      - file: intro/using_jupyter
-      - file: intro/more_on_jupyter
+          - file: Plotting_the_Classics
+          - file: Literary_Characters
+          - file: Another_Kind_Of_Character
+      - file: surviving_computers
+      - file: the_software
+      - file: using_jupyter
+      - file: more_on_jupyter
   - caption: On code
     chapters:
-      - file: code-basics/to_code
-      - file: code-basics/sampling_problem
-      - file: code-basics/three_girls
-      - file: code-basics/variables_intro
-      - file: code-basics/variables
-      - file: code-basics/Names
+      - file: to_code
+      - file: sampling_problem
+      - file: three_girls
+      - file: variables_intro
+      - file: variables
+      - file: Names
       # good_names exercise
-      - file: code-basics/Expressions
+      - file: Expressions
       # basic_names exercise
-      - file: code-basics/intro_to_functions
-      - file: code-basics/Calls
+      - file: intro_to_functions
+      - file: Calls
       # rounding exercise
       # exprs_states exercise
-      - file: code-basics/sub_expressions
+      - file: sub_expressions
       # subexpressions
-      - file: code-basics/first_pass_three_girls
+      - file: first_pass_three_girls
   - caption: Data types
     chapters:
-      - file: data-types/data_types
-      - file: data-types/Numbers
-      - file: data-types/Strings
+      - file: data_types
+      - file: Numbers
+      - file: Strings
       # data_types exercise
-      - file: data-types/strings_and_variables
-      - file: data-types/String_Methods
+      - file: strings_and_variables
+      - file: String_Methods
       # strings_vars exercise
       # strings exercise
       # AKA Booleans
-      - file: data-types/Comparison
-      - file: data-types/lists
-    # Consider - file: data-types/tuples
-    # Consider - file: data-types/dicts
+      - file: Comparison
+      - file: lists
+    # Consider - file: tuples
+    # Consider - file: dicts
   - caption: Arrays
     chapters:
-      - file: arrays/Arrays
+      - file: Arrays
       # Page above covers multi-line statements.
-      - file: arrays/Ranges
+      - file: Ranges
       # arrays exercise
-      - file: arrays/More_on_Arrays
-      - file: arrays/array_indexing
+      - file: More_on_Arrays
+      - file: array_indexing
       # morer_arrays exercise - this has held-back tests.
       # OR more_arrays exercise - this has held-back tests.
-      - file: arrays/filling_arrays
-      - file: arrays/function_arguments
+      - file: filling_arrays
+      - file: function_arguments
       # Consider exercise.
-      - file: arrays/rng_choice
-      - file: arrays/boolean_arrays
+      - file: rng_choice
+      - file: boolean_arrays
       # array_indexing exercise
       # Expand?  Need exercise.
-      - file: arrays/leaping_ahead
+      - file: leaping_ahead
   - caption: Iteration
     chapters:
-      - file: iteration/iteration
-      - file: iteration/indentation
+      - file: iteration
+      - file: indentation
       # fix my fors exercise.
-      - file: iteration/reply_supreme
-      - file: iteration/inference
+      - file: reply_supreme
+      - file: inference
     # simulation exercise
     # three_girls
   - caption: Population and permutation
     chapters:
-      - file: permutation/population_permutation
-      - file: permutation/permutation_idea
-      - file: permutation/permutation_and_t_test
-      - file: permutation/permutation_pairs
+      - file: population_permutation
+      - file: permutation_idea
+      - file: permutation_and_t_test
+      - file: permutation_pairs
 
   # Need some introduction to plotting here.
   - caption: Data frames
     chapters:
-      - file: data-frames/data_frames
-      - file: data-frames/boolean_indexing
+      - file: data_frames
+      - file: boolean_indexing
       # boolean_arrays exercise.
-      - file: data-frames/data_frame_intro
-      - file: data-frames/df_index
-      - file: data-frames/df_basic_col_indexing
-      - file: data-frames/df_sort_head_tail
-      - file: data-frames/series_like_arrays
-      - file: data-frames/df_basic_row_indexing
+      - file: data_frame_intro
+      - file: df_index
+      - file: df_basic_col_indexing
+      - file: df_sort_head_tail
+      - file: series_like_arrays
+      - file: df_basic_row_indexing
       # data_frames exercise
-      - file: data-frames/value_counts
+      - file: value_counts
     # mosquito_arms (also, a permutation test).
     # Need something on value_counts
     # money_death exercise
   - caption: Advanced indexing in Pandas
     chapters:
-      - file: wild-pandas/pandas_indexing
-      - file: wild-pandas/indexing_catechism
-      - file: wild-pandas/indexing_assignment
-      - file: wild-pandas/indexing_expressions
+      - file: pandas_indexing
+      - file: indexing_catechism
+      - file: indexing_assignment
+      - file: indexing_expressions
   - caption: Crosstabulation and inference
     chapters:
-      - file: useful-pandas/crosstab
-      - file: wild-pandas/np_repeat
-      - file: wild-pandas/fishers_tea
-      - file: wild-pandas/counts_to_observations
-      - file: wild-pandas/tea_with_chi
-      - file: wild-pandas/noble_politics
+      - file: crosstab
+      - file: np_repeat
+      - file: fishers_tea
+      - file: counts_to_observations
+      - file: tea_with_chi
+      - file: noble_politics
   - caption: Useful Pandas
     chapters:
-      - file: data-frames/missing_values
-      - file: data-frames/df_plotting
-      - file: useful-pandas/groupby
-      - file: useful-pandas/merge
+      - file: missing_values
+      - file: df_plotting
+      - file: groupby
+      - file: merge
   - caption: Pandas pitfalls
     chapters:
-      - file: wild-pandas/safe_pandas
-      - file: wild-pandas/text_encoding
-      - file: wild-pandas/numbers_and_strings
+      - file: safe_pandas
+      - file: text_encoding
+      - file: numbers_and_strings
   - caption: More building blocks
     chapters:
-      - file: functions-conditionals/more_building_blocks
-      - file: functions-conditionals/introducing_functions
-      - file: functions-conditionals/none
-      - file: functions-conditionals/functions
-      - file: functions-conditionals/conditional_statements
-      - file: functions-conditionals/functions_as_values
-      - file: functions-conditionals/apply_functions
+      - file: more_building_blocks
+      - file: introducing_functions
+      - file: none
+      - file: functions
+      - file: conditional_statements
+      - file: functions_as_values
+      - file: apply_functions
     # functions_conditionals
   - caption: The mean and straight lines
     chapters:
-      - file: mean-slopes/mean
-      - file: mean-slopes/mean_meaning
+      - file: mean
+      - file: mean_meaning
       # other_predictors
-      - file: mean-slopes/np_argmin
-      - file: mean-slopes/mean_and_slopes
-      - file: mean-slopes/sse_rmse
+      - file: np_argmin
+      - file: mean_and_slopes
+      - file: sse_rmse
       # time_slopes
-      - file: mean-slopes/optimization
-      - file: mean-slopes/finding_lines
-      - file: mean-slopes/using_minimize
+      - file: optimization
+      - file: finding_lines
+      - file: using_minimize
       # isloping
-      - file: mean-slopes/inference_on_slopes
-      - file: mean-slopes/combining_boolean_arrays
+      - file: inference_on_slopes
+      - file: combining_boolean_arrays
       # is_slope_real
-      - file: mean-slopes/standard_scores
+      - file: standard_scores
       # ryostd
-      - file: mean-slopes/Correlation
+      - file: Correlation
     # on_regression
       - file: on_multiple_regression
   - caption: Classification
     chapters:
-      - file: classification/classification
-      - file: classification/Nearest_Neighbors
-      - file: classification/Training_and_Testing
+      - file: classification
+      - file: Nearest_Neighbors
+      - file: Training_and_Testing
       # classify_song_discussion
-      - file: classification/Rows_of_Tables
-      - file: classification/Implementing_the_Classifier
+      - file: Rows_of_Tables
+      - file: Implementing_the_Classifier
       # classify_song_part1
-      - file: classification/Accuracy_of_the_Classifier
+      - file: Accuracy_of_the_Classifier
       # classify_song_part2
-      - file: classification/Multiple_Regression
-      - file: classification/single_multiple
+      - file: Multiple_Regression
+      - file: single_multiple
   - caption: More on regression
     chapters:
-      - file: more-regression/logistic_regression
+      - file: logistic_regression
   - caption: Confidence
     chapters:
-      - file: confidence/confidence
-      - file: confidence/bootstrap
+      - file: confidence
+      - file: bootstrap
       # boots_and_salaries
-      - file: confidence/havana_math
-      - file: confidence/Central_Limit_Theorem
-      - file: confidence/large_numbers
-      - file: confidence/laws_of_probability
-      - file: confidence/first_bayes
-      - file: confidence/bayes_theorem
-      - file: confidence/bayes_bars
-      - file: confidence/confident_treatment
-      - file: confidence/bayes_confidence
+      - file: havana_math
+      - file: Central_Limit_Theorem
+      - file: large_numbers
+      - file: laws_of_probability
+      - file: first_bayes
+      - file: bayes_theorem
+      - file: bayes_bars
+      - file: confident_treatment
+      - file: bayes_confidence
 
   - caption: The end of the beginning
     chapters:
-      - file: end/end_of_beginning
+      - file: end_of_beginning
 
   - caption: Extra pages
     chapters:
-      - file: extra/extra
-      - file: extra/more_on_lists
-      - file: extra/introducing_python
-      - file: extra/brisk_python
-      - file: extra/pathlib
-      - file: extra/monty_hall_lists
-      - file: extra/data8_functions
-      - file: extra/mean_deviations
-      - file: extra/mean_sq_deviations
-      - file: extra/slope_deviations
+      - file: extra
+      - file: more_on_lists
+      - file: introducing_python
+      - file: brisk_python
+      - file: pathlib
+      - file: monty_hall_lists
+      - file: data8_functions
+      - file: mean_deviations
+      - file: mean_sq_deviations
+      - file: slope_deviations
