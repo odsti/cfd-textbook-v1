@@ -1,0 +1,54 @@
+[build-system]
+requires = ["flit_core >=3.4,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cfdcode"
+version = "0.1a1"
+readme = 'README.md'
+authors = [
+    {name = "Matthew Brett", email = "matthew.brett@gmail.com"}
+]
+classifiers = ["License :: OSI Approved :: BSD License",
+               "Programming Language :: Python :: 3",
+               'Development Status :: 3 - Alpha',
+               'Environment :: Console',
+               'Intended Audience :: Developers',
+               'Intended Audience :: Science/Research',
+               'Programming Language :: Python :: 3',
+               'Programming Language :: Python :: 3.9',
+               'Programming Language :: Python :: 3.10',
+               'Programming Language :: Python :: 3.11',
+               'Programming Language :: Python :: 3.12',
+               'Programming Language :: Python :: 3.13',
+               'Topic :: Scientific/Engineering',
+               'Operating System :: Microsoft :: Windows',
+               'Operating System :: POSIX',
+               'Operating System :: Unix',
+               'Operating System :: MacOS']
+license = {file = 'license.md'}
+# Check against build_requirements.txt
+dependencies = [
+    'matplotlib',
+    # To silence warning in Pandas sometime <= 2.2
+    'pyarrow',
+    'pandas >= 1.5',
+    'xlrd',
+    'openpyxl',
+    'scipy',
+    'ipython',
+    'jupytext',
+    'statsmodels',
+    'sqlalchemy',
+    'jupyter_server',
+    'jupyter-book',
+    'jupytext',
+    'oktools',
+    'ghp-import'
+]
+requires-python=">=3.8"
+dynamic = ['description']
+
+[project.urls]
+Documentation = "https://odsti.github.io/cfd-textbook"
+Source = "https://github.com/odsti/cfd-textbook"

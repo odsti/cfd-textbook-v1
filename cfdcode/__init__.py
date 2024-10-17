@@ -1,4 +1,4 @@
-""" Support code for textbook
+""" Support code of Coding for Data textbook
 """
 
 from . import ucb_page
