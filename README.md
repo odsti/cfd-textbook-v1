@@ -24,27 +24,27 @@ thanks to the authors.
 Say your Github username is `my-gh-user`.
 
 Go to the repository page that houses the README that you are reading now — for
-example <https://github.co/odsti/cfd-textbook>.
+example <https://github.co/odsti/cfd-textbook-v1>.
 
 Click on "Fork" button near top right, to make your own fork of the repository,
 that will now be at `https://github.com/my-gh-user/<repo-name>` where
 `<repo-name>` is the name of the repository housing this README.
 
 The following assumes that the README is in
-<https://github.com/odsti/cfd-textbook>.  The name of the repository is
-therefore `cfd-textbook`.  Substitute URL and repository name throughout.
+<https://github.com/odsti/cfd-textbook-v1>.  The name of the repository is
+therefore `cfd-textbook-v1`.  Substitute URL and repository name throughout.
 
 Clone the main repo:
 
 ```
-git clone https://github.com/odsti/cfd-textbook
+git clone https://github.com/odsti/cfd-textbook-v1
 ```
 
 Add a remote for your fork:
 
 ```
-cd cfd-textbook
-git remote add my-gh-user https://github.com/my-gh-user/cfd-textbook.git
+cd cfd-textbook-v1
+git remote add my-gh-user https://github.com/my-gh-user/cfd-textbook-v1.git
 git fetch my-gh-user
 ```
 

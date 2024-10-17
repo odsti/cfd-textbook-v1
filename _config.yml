@@ -30,10 +30,10 @@ html:
   use_edit_page_button: true
   use_repository_button: true
   use_issues_button: true
-  baseurl: https://odsti.github.io/cfd-textbook
+  baseurl: https://odsti.github.io/cfd-textbook-v1
 
 repository:
-  url: https://github.com/odsti/cfd-textbook
+  url: https://github.com/odsti/cfd-textbook-v1
   branch: main
 
 launch_buttons:
@@ -50,7 +50,7 @@ launch_buttons:
   # Extension (if different from source file).
   jupyterlite_ext: ".ipynb"
   # Example jupyterlite link:
-  # https://odsti.github.io/cfd-textbook/interact/lab/index.html?path=variables_intro.ipynb
+  # https://odsti.github.io/cfd-textbook-v1/interact/lab/index.html?path=variables_intro.ipynb
   # The URL of Google Colab (e.g., https://colab.research.google.com)
   # colab_url: "https://colab.research.google.com"
   # thebe: true

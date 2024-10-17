@@ -51,5 +51,5 @@ requires-python=">=3.8"
 dynamic = ['description']
 
 [project.urls]
-Documentation = "https://odsti.github.io/cfd-textbook"
-Source = "https://github.com/odsti/cfd-textbook"
+Documentation = "https://odsti.github.io/cfd-textbook-v1"
+Source = "https://github.com/odsti/cfd-textbook-v1"
