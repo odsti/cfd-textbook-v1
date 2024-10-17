@@ -39,18 +39,14 @@ plt.style.use('fivethirtyeight')
 import pandas as pd
 pd.set_option('mode.copy_on_write', True)
 
-# A tiny function to read a file directly from a URL
-from urllib.request import urlopen
-
-def read_url(url):
-    return urlopen(url).read().decode()
+# Get the Path object for reading text from files.
+from pathlib import Path
 ```
 
 ```{python tags=c("hide-cell")}
 # HIDDEN
 # Read the text of Pride and Prejudice, split into chapters.
-book_url = 'http://www.gutenberg.org/ebooks/42671.txt.utf-8'
-book_text = read_url(book_url)
+book_text = Path('data/pride_and_prejudice.txt').read_text()
 # Break the text into Chapters
 book_chapters = book_text.split('CHAPTER ')
 # Drop the first "Chapter" - it's the Project Gutenberg header

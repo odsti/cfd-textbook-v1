@@ -1,5 +1,7 @@
 # pre-commit install
 
+exclude: "data/pride_and_prejudice.txt$"
+
 repos:
   - repo: https://github.com/pre-commit/pre-commit-hooks
     rev: v4.6.0 # v4.4.0

@@ -91,3 +91,9 @@ This is from the Berkeley textbook, as of the CC-BY commit
 <https://github.com/data-8/textbook/commit/64b20f0>. It is a transcription of
 the pocket numbers and colors of a standard American (double zero) roulette
 wheel, available in many places, e.g. <https://en.wikipedia.org/wiki/Roulette>.
+
+## pride_and_prejudice
+
+The text is from [Project Gutenburg's copy of Pride and
+Prejudice](http://www.gutenberg.org/ebooks/42671.txt.utf-8).  See the license
+at the end of the file for rights and other matters.
