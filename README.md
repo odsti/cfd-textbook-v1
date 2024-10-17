@@ -4,16 +4,15 @@ Course materials and notes for the Open Data Science Teaching Initiative
 introductory data science course.
 
 This textbook takes its general approach and some pages from the Berkeley
-Foundations of Data Science course. The most recent version of the course is at
-[Computational and Inferential Thinking](https://www.inferentialthinking.com).
-The repository for the textbook is [on
-Github](https://github.com/data8/textbook).
+Foundations of Data Science course. The most recent version of that course is
+at [Computational and Inferential
+Thinking](https://www.inferentialthinking.com). The repository for the Berkeley
+textbook is [on Github](https://github.com/data8/textbook).
 
-Versions of the Berkeley course come from the last commit in that
+Our versions of the Berkeley course pages come from the last commit in that
 repository that is licensed with a Creative Commons CC-BY-NC license
-
-- `64b20f0`. The following commit (`710ed4e`) relicensed the work
-  with a CC-BY-NC-ND license, forbidding derivative works.
+— `64b20f0`. The subsequent commit (`710ed4e`) relicensed the work with
+a CC-BY-NC-ND license, forbidding derivative works.
 
 ## Machinery
 
@@ -24,11 +23,12 @@ thanks to the authors.
 
 Say your Github username is `my-gh-user`.
 
-Go to the repository page that houses this README - for example
-<https://github.co/odsti/cfd-textbook>.
+Go to the repository page that houses the README that you are reading now — for
+example <https://github.co/odsti/cfd-textbook>.
 
-Click on "Fork" button near top right, to make your own fork of the
-repository, that will now be at `https://github.com/my-gh-user/<repo-name>` where `<repo-name>` is the name of the repository housing this README.
+Click on "Fork" button near top right, to make your own fork of the repository,
+that will now be at `https://github.com/my-gh-user/<repo-name>` where
+`<repo-name>` is the name of the repository housing this README.
 
 The following assumes that the README is in
 <https://github.com/odsti/cfd-textbook>.  The name of the repository is
@@ -159,7 +159,7 @@ cd ..
 git clone https://github.com/data-8/textbook
 ```
 
-**Make sure you are using the last commit we can legally use, from the
+**Make sure you are using the last commit we can legally use from the
 Berkeley repository**:
 
 ```
@@ -190,4 +190,6 @@ You might want to check the instructions for configuring the build at
 ### Shipping
 
 - Final check
-- Ship with `make github`
+- You can build the website and upload from your machine with `make github`,
+  but, if the Github actions are set up correctly, the textbook should build
+  automatically on push.
