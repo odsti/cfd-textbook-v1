@@ -17,7 +17,6 @@ SITE_ROOT = (HERE / '..').resolve()
 sys.path.append(str(HERE))
 
 
-
 def write_redirect(source, target, out_dir):
     redirect_fname = out_dir / f'{source}.html'
     fname_dir = redirect_fname.parent
