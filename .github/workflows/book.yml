@@ -47,7 +47,7 @@ jobs:
       # Build the page
       - name: Build the book
         run: |
-          make html
+          make web
 
       - uses: actions/upload-artifact@v4
         if: failure()

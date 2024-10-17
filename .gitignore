@@ -10,3 +10,4 @@ _references.bib
 *.ipynb
 *.orig
 node_modules/
+.jupyterlite.doit.db

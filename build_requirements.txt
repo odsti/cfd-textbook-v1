@@ -1,5 +1,6 @@
 # Build requirements
 -r requirements.txt
+sphinx-book-theme@git+https://github.com/matthew-brett/sphinx-book-theme@jupyterlite-links
 -e .
 jupyter-book
 jupytext

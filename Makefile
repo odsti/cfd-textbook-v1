@@ -1,6 +1,7 @@
 PYTHON ?= python
 PIP_INSTALL_CMD ?= $(PYTHON) -m pip install
 BUILD_DIR=_build/html
+JL_DIR=_build/jl
 
 html:
 	# Check for ipynb files in source (should all be .Rmd).
@@ -8,7 +9,21 @@ html:
 	jupyter-book build -W .
 	$(PYTHON) _scripts/make_redirects.py
 
-github: html
+jl:
+	# Jupyter-lite files for book build.
+	$(PIP_INSTALL_CMD) -r jl-build-requirements.txt
+	rm -rf $(JL_DIR)
+	mkdir $(JL_DIR)
+	cp -r data images $(JL_DIR)
+	$(PYTHON) _scripts/process_notebooks.py . $(JL_DIR)
+	$(PYTHON) -m jupyter lite build \
+		--contents $(JL_DIR) \
+		--output-dir $(BUILD_DIR)/interact \
+		--lite-dir $(JL_DIR)
+
+web: html jl
+
+github: web
 	ghp-import -n _build/html -p -f
 
 clean: rm-ipynb

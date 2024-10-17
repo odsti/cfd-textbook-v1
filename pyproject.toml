@@ -41,6 +41,7 @@ dependencies = [
     'statsmodels',
     'sqlalchemy',
     'jupyter_server',
+    'sphinx-book-theme@git+https://github.com/matthew-brett/sphinx-book-theme@jupyterlite-links',
     'jupyter-book',
     'jupytext',
     'oktools',
