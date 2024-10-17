@@ -58,7 +58,7 @@
     <script>var togglebuttonSelector = '.toggle, .admonition.dropdown';</script>
     <script>const THEBE_JS_URL = "https://unpkg.com/thebe@0.8.2/lib/index.js"; const thebe_selector = ".thebe,.cell"; const thebe_selector_input = "pre"; const thebe_selector_output = ".output, .cell_output"</script>
     <script>DOCUMENTATION_OPTIONS.pagename = 'rng_choice';</script>
-    <link rel="canonical" href="https://odsti.github.io/cfd-textbook/rng_choice.html" />
+    <link rel="canonical" href="https://odsti.github.io/cfd-textbook-v1/rng_choice.html" />
     <link rel="icon" href="_static/dsfe_favicon.ico"/>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
@@ -441,7 +441,7 @@
       
       
       
-      <li><a href="https://github.com/odsti/cfd-textbook" target="_blank"
+      <li><a href="https://github.com/odsti/cfd-textbook-v1" target="_blank"
    class="btn btn-sm btn-source-repository-button dropdown-item"
    title="Source repository"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -458,7 +458,7 @@
       
       
       
-      <li><a href="https://github.com/odsti/cfd-textbook/edit/main/rng_choice.Rmd" target="_blank"
+      <li><a href="https://github.com/odsti/cfd-textbook-v1/edit/main/rng_choice.Rmd" target="_blank"
    class="btn btn-sm btn-source-edit-button dropdown-item"
    title="Suggest edit"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -475,7 +475,7 @@
       
       
       
-      <li><a href="https://github.com/odsti/cfd-textbook/issues/new?title=Issue%20on%20page%20%2Frng_choice.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/odsti/cfd-textbook-v1/issues/new?title=Issue%20on%20page%20%2Frng_choice.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -640,7 +640,7 @@ choosing between 0 and 1, like this.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>np.int64(0)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>np.int64(1)
 </pre></div>
 </div>
 </div>
@@ -660,7 +660,7 @@ do this:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>np.int64(1)
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>np.int64(0)
 </pre></div>
 </div>
 </div>
@@ -716,7 +716,7 @@ jurors, each with a probability of 0.26 of being 1 (Black).  We could do this:</
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0, 0, 0, 0, 0, 1, 0, 1, 0, 0, 0, 0])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0, 0, 0, 0, 0, 1, 0, 0, 0, 0, 0, 0])
 </pre></div>
 </div>
 </div>
@@ -733,7 +733,7 @@ of being a Girl.  Let’s do the same as we did before, and use 0 for a boy, and
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([1, 1, 1, 1])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([1, 0, 1, 0])
 </pre></div>
 </div>
 </div>
@@ -750,7 +750,7 @@ and get the same outcome:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0, 0, 1, 1])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0, 1, 0, 0])
 </pre></div>
 </div>
 </div>
@@ -794,7 +794,7 @@ the bucket.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([5, 6, 6])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([4, 4, 7])
 </pre></div>
 </div>
 </div>
@@ -823,7 +823,7 @@ in general, the digits cannot repeat in this case.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([4, 9, 7])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([5, 6, 1])
 </pre></div>
 </div>
 </div>
@@ -840,7 +840,7 @@ digits.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([0, 8, 9, 3, 8, 7, 4, 1, 9, 0])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([4, 6, 4, 0, 5, 9, 7, 1, 6, 8])
 </pre></div>
 </div>
 </div>
@@ -853,7 +853,7 @@ digits.</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([9, 2, 8, 4, 6, 8, 4, 5, 3, 1])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([2, 2, 0, 9, 6, 6, 1, 5, 5, 2])
 </pre></div>
 </div>
 </div>
@@ -898,11 +898,11 @@ error:</p>
 </div>
 </div>
 <div class="cell_output docutils container">
-<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([4, 5, 4, 7, 6, 5, 4, 5, 9, 1, 4, 3, 6, 2, 5, 9, 9, 8, 9, 6, 6, 1,
-       8, 6, 3, 9, 3, 9, 3, 7, 5, 8, 2, 8, 6, 1, 0, 8, 7, 5, 3, 3, 5, 9,
-       4, 6, 4, 2, 9, 2, 3, 8, 4, 3, 6, 2, 0, 7, 2, 9, 2, 5, 0, 8, 6, 9,
-       1, 1, 8, 4, 0, 5, 1, 6, 0, 2, 3, 9, 8, 4, 4, 7, 2, 2, 7, 3, 2, 5,
-       7, 4, 8, 8, 5, 2, 8, 7, 5, 4, 1, 0])
+<div class="output text_plain highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>array([9, 3, 2, 4, 8, 9, 3, 7, 3, 9, 3, 0, 4, 8, 1, 3, 0, 6, 1, 4, 9, 6,
+       2, 9, 3, 5, 2, 8, 6, 1, 0, 3, 8, 5, 4, 7, 4, 8, 6, 4, 6, 7, 7, 1,
+       7, 3, 6, 0, 8, 5, 8, 6, 1, 1, 6, 5, 5, 6, 5, 7, 7, 7, 1, 3, 8, 9,
+       0, 2, 8, 1, 6, 4, 1, 0, 3, 3, 5, 3, 8, 3, 3, 3, 2, 0, 6, 1, 8, 0,
+       8, 9, 4, 5, 9, 4, 0, 2, 2, 8, 6, 0])
 </pre></div>
 </div>
 </div>
